@@ -1,0 +1,28 @@
+@import "settings/blazebit";
+@import "components/asciidoc";
+@import "components/awesome-icons";
+
+.vendor {
+	background: url("../images/vendor.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 29px;
+    width: 104px;
+}
+
+.vendor strong {
+	display: none;
+}
+
+.logo {
+	background: url("../images/logo.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 29px;
+    width: 170px;
+	float: right;
+}
+
+.logo strong {
+	display: none;
+}
